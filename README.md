@@ -31,6 +31,12 @@ CESD-10 depressive-symptom outcome
 
 The current primary spatial-and-wave adjusted specification estimates **−0.477 CESD-10 points per +0.1 NDVI** (95% CI −0.831 to −0.122; p=0.0085; 63,004 observations). This is presented as an observational association, not a causal effect.
 
+## Results figure
+
+![Publication-style summary of current NDVI results](figures/ndvi-results-summary.svg)
+
+The figure separates the final fully adjusted primary/contextual results from the earlier exploratory lag comparison so estimates from different model generations are not presented as directly interchangeable. Reproduce the figure with `R/03_plot_results.R`.
+
 ## NDVI QA strategy
 
 Pixel Reliability is retained as a sensitivity dimension rather than using Good-only pixels as the sole exposure definition.
