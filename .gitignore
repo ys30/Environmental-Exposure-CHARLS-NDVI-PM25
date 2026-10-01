@@ -1,0 +1,23 @@
+# Restricted / large data
+*.dta
+*.sav
+*.rds
+*.RData
+*.nc
+*.tif
+*.tiff
+data/raw/
+data/private/
+outputs/private/
+
+# Credentials and local configuration
+.Renviron
+.Rprofile
+*credential*
+*password*
+*.netrc
+
+# R / OS
+.Rhistory
+.Rproj.user/
+.DS_Store
