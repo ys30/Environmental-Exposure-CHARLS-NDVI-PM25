@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">Residential greenness and depressive symptoms in CHARLS</title>
+<desc id="desc">Three-panel coefficient summary showing the primary NDVI association, sensitivity specifications, and an earlier exploratory lag comparison.</desc>
+<rect width="1440" height="900" fill="#fbfcfa"/>
+<style>
+.t{font-family:Arial,sans-serif;fill:#17372d}.m{font-family:Arial,sans-serif;fill:#5d6c65}.h{font-weight:700}.panel{fill:white;stroke:#dbe5de;stroke-width:2}.zero{stroke:#8d9993;stroke-width:2;stroke-dasharray:7 7}.ci{stroke:#2f6b53;stroke-width:5;stroke-linecap:round}.dot{fill:#2f6b53}.soft{stroke:#a9b8b0;stroke-width:4}.axis{stroke:#cfd8d2;stroke-width:2}.small{font-size:18px}.lab{font-size:20px}.sub{font-size:17px}.pt{font-size:18px;font-weight:700;fill:#245b46}
+</style>
+<text x="70" y="72" class="t h" font-size="38">Residential greenness and depressive symptoms in CHARLS</text>
+<text x="70" y="108" class="m" font-size="20">Higher NDVI is associated with lower CESD-10 in the primary longitudinal analysis · effect per +0.1 NDVI</text>
+
+<rect x="55" y="145" width="650" height="350" rx="22" class="panel"/>
+<text x="85" y="188" class="t h" font-size="24">A · Primary result &amp; contextual robustness</text>
+<text x="85" y="216" class="m sub">Final fully adjusted models · 95% confidence intervals</text>
+<line x1="570" y1="245" x2="570" y2="440" class="zero"/>
+<line x1="270" y1="440" x2="660" y2="440" class="axis"/>
+<text x="270" y="469" class="m small">−1.0</text><text x="457" y="469" class="m small">−0.5</text><text x="563" y="469" class="m small">0</text>
+<text x="85" y="280" class="t lab">Alternative set A</text><line x1="325" y1="274" x2="522" y2="274" class="ci"/><circle cx="424" cy="274" r="9" class="dot"/><text x="536" y="281" class="pt">−0.496</text>
+<text x="85" y="345" class="t lab">Alternative set B</text><line x1="327" y1="339" x2="524" y2="339" class="ci"/><circle cx="426" cy="339" r="9" class="dot"/><text x="538" y="346" class="pt">−0.491</text>
+<text x="85" y="410" class="t lab h">Primary set</text><line x1="337" y1="404" x2="526" y2="404" class="ci"/><circle cx="430" cy="404" r="11" class="dot"/><text x="540" y="411" class="pt">−0.477</text>
+
+<rect x="735" y="145" width="650" height="350" rx="22" class="panel"/>
+<text x="765" y="188" class="t h" font-size="24">B · Sensitivity specifications</text>
+<text x="765" y="216" class="m sub">Point estimates; current summary does not report CIs for these rows</text>
+<line x1="1245" y1="245" x2="1245" y2="440" class="zero"/>
+<text x="765" y="280" class="t lab">City-specific trends</text><line x1="1032" y1="274" x2="1245" y2="274" class="soft"/><circle cx="1032" cy="274" r="10" class="dot"/><text x="1060" y="281" class="pt">β −0.630 · p=.0054</text>
+<text x="765" y="345" class="t lab h">Primary model</text><line x1="1084" y1="339" x2="1245" y2="339" class="soft"/><circle cx="1084" cy="339" r="10" class="dot"/><text x="1112" y="346" class="pt">β −0.477 · p=.0085</text>
+<text x="765" y="410" class="t lab">+ household consumption</text><line x1="1167" y1="404" x2="1245" y2="404" class="soft"/><circle cx="1167" cy="404" r="10" class="dot"/><text x="1195" y="431" class="m small">β −0.231 · p=.277</text>
+
+<rect x="55" y="525" width="1330" height="270" rx="22" class="panel"/>
+<text x="85" y="568" class="t h" font-size="24">C · Exploratory lag pattern</text>
+<text x="85" y="596" class="m sub">Earlier spatial + wave-FE comparison; shown separately from the final fully adjusted primary model</text>
+<line x1="1000" y1="620" x2="1000" y2="748" class="zero"/>
+<text x="100" y="646" class="t lab">Lag 1</text><line x1="674" y1="640" x2="1070" y2="640" class="ci"/><circle cx="872" cy="640" r="9" class="dot"/><text x="1090" y="647" class="m small">−0.144  (−0.501, 0.213)</text>
+<text x="100" y="696" class="t lab h">Lag 2</text><line x1="570" y1="690" x2="930" y2="690" class="ci"/><circle cx="750" cy="690" r="11" class="dot"/><text x="1090" y="697" class="pt">−0.521  (−0.864, −0.178)</text>
+<text x="100" y="746" class="t lab">Lag 3</text><line x1="810" y1="740" x2="1160" y2="740" class="ci"/><circle cx="1020" cy="740" r="9" class="dot"/><text x="1180" y="747" class="m small">+0.040  (−0.279, 0.359)</text>
+
+<rect x="55" y="820" width="1330" height="55" rx="16" fill="#edf4ef"/>
+<text x="80" y="854" class="t" font-size="19"><tspan class="h">Primary:</tspan> β = −0.477 (95% CI −0.831 to −0.122), p = .0085, N = 63,004. Observational association; higher CESD-10 indicates more depressive symptoms.</text>
+</svg>
