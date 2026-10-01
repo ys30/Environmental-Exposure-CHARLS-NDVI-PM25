@@ -1,1 +1,76 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 900"><rect width="1500" height="900" fill="#fbfcfa"/><style>.t{font-family:Arial;fill:#17372d}.m{font-family:Arial;fill:#617169}.h{font-weight:700}.p{fill:#fff;stroke:#d9e5dd;stroke-width:2}.z{stroke:#89968f;stroke-width:2;stroke-dasharray:7 7}.ci{stroke:#2d6b50;stroke-width:5;stroke-linecap:round}.d{fill:#216847}.soft{stroke:#aebbb4;stroke-width:4}.lab{font-size:19px}.sm{font-size:16px}.num{font-size:17px;font-weight:700;fill:#245844}</style><text x="65" y="65" class="t h" font-size="38">Greenness, air pollution and depressive symptoms across China</text><text x="65" y="102" class="m" font-size="20">Remote-sensing exposure engineering linked with longitudinal CHARLS data</text><rect x="55" y="135" width="620" height="330" rx="22" fill="#f1f6f2" stroke="#d9e5dd" stroke-width="2"/><text x="85" y="180" class="t h" font-size="24">A · China-wide exposure workflow</text><text x="90" y="235" class="t lab">MOD13A3 monthly NDVI · 1 km</text><text x="90" y="285" class="m lab">↓ Pixel Reliability QA + valid-pixel coverage</text><text x="90" y="335" class="m lab">↓ MCD12Q1 urban / non-urban masks</text><text x="90" y="385" class="m lab">↓ Prefecture × month NDVI · 2005–2020</text><text x="90" y="435" class="t h lab">→ PM₂.₅ + CHARLS → longitudinal CESD-10 models</text><rect x="705" y="135" width="740" height="330" rx="22" class="p"/><text x="735" y="180" class="t h" font-size="24">B · Primary association</text><text x="735" y="208" class="m sm">Final fully adjusted contextual specifications · per +0.1 NDVI</text><line x1="1290" y1="230" x2="1290" y2="420" class="z"/><text x="735" y="270" class="t lab">Alternative contextual set A</text><line x1="1006" y1="264" x2="1245" y2="264" class="ci"/><circle cx="1126" cy="264" r="10" class="d"/><text x="1260" y="270" class="num">−0.496</text><text x="735" y="335" class="t lab">Alternative contextual set B</text><line x1="1008" y1="329" x2="1247" y2="329" class="ci"/><circle cx="1128" cy="329" r="10" class="d"/><text x="1260" y="335" class="num">−0.491</text><text x="735" y="400" class="t h lab">Primary contextual set</text><line x1="1017" y1="394" x2="1249" y2="394" class="ci"/><circle cx="1133" cy="394" r="11" class="d"/><text x="1260" y="400" class="num">−0.477</text><rect x="55" y="495" width="690" height="295" rx="22" class="p"/><text x="85" y="540" class="t h" font-size="24">C · Specification sensitivity</text><text x="85" y="568" class="m sm">Point estimates · CIs unavailable in current summary</text><line x1="655" y1="595" x2="655" y2="745" class="z"/><text x="85" y="625" class="t lab">City-specific linear trends</text><line x1="425" y1="619" x2="655" y2="619" class="soft"/><circle cx="425" cy="619" r="10" class="d"/><text x="450" y="625" class="num">−0.630 · p=.0054</text><text x="85" y="685" class="t h lab">Primary model</text><line x1="481" y1="679" x2="655" y2="679" class="soft"/><circle cx="481" cy="679" r="10" class="d"/><text x="506" y="685" class="num">−0.477 · p=.0085</text><text x="85" y="745" class="t lab">Consumption complete cases</text><line x1="571" y1="739" x2="655" y2="739" class="soft"/><circle cx="571" cy="739" r="10" class="d"/><text x="590" y="765" class="m sm">−0.231 · p=.2768</text><rect x="775" y="495" width="670" height="295" rx="22" class="p"/><text x="805" y="540" class="t h" font-size="24">D · Exploratory lag pattern</text><text x="805" y="568" class="m sm">Earlier spatial + wave-FE comparison · separate from final model</text><line x1="1210" y1="595" x2="1210" y2="745" class="z"/><text x="805" y="625" class="t lab">Lag 1</text><line x1="1024" y1="619" x2="1293" y2="619" class="ci"/><circle cx="1158" cy="619" r="9" class="d"/><text x="1310" y="625" class="m sm">−0.144</text><text x="805" y="685" class="t h lab">Lag 2</text><line x1="954" y1="679" x2="1162" y2="679" class="ci"/><circle cx="1058" cy="679" r="11" class="d"/><text x="1180" y="685" class="num">−0.521</text><text x="805" y="745" class="t lab">Lag 3</text><line x1="1100" y1="739" x2="1340" y2="739" class="ci"/><circle cx="1225" cy="739" r="9" class="d"/><text x="1360" y="745" class="m sm">+0.040</text><rect x="55" y="820" width="1390" height="55" rx="15" fill="#eaf3ed"/><text x="80" y="854" class="t" font-size="18"><tspan class="h">Primary:</tspan> +0.1 NDVI → CESD-10 −0.477 (95% CI −0.831 to −0.122), p=.0085, N=63,004. Observational association.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+<title id="title">Residential greenness and depressive symptoms in CHARLS</title>
+<desc id="desc">China-wide CHARLS environmental exposure workflow, primary NDVI association, sensitivity analyses, and exploratory lag comparison.</desc>
+<rect width="1600" height="980" fill="#fbfcfa"/>
+<style>
+.t{font-family:Arial,sans-serif;fill:#17372d}.m{font-family:Arial,sans-serif;fill:#63746b}.h{font-weight:700}.panel{fill:#fff;stroke:#dbe6df;stroke-width:2}.head{fill:#eef5f1}.green{fill:#216847}.blue{fill:#2d6f9f}.orange{fill:#c96b24}.ci{stroke:#216847;stroke-width:5;stroke-linecap:round}.ci2{stroke:#2d6f9f;stroke-width:5;stroke-linecap:round}.ci3{stroke:#c96b24;stroke-width:5;stroke-linecap:round}.zero{stroke:#87978f;stroke-width:2;stroke-dasharray:7 7}.axis{stroke:#cdd8d2;stroke-width:2}.sm{font-size:16px}.lab{font-size:18px}.num{font-size:17px;font-weight:700}.box{fill:#f2f7f3;stroke:#dbe6df}.flow{fill:#edf5ef;stroke:#d2e3d7}.note{fill:#f7faf8;stroke:#e0e9e3}</style>
+
+<text x="70" y="60" class="t h" font-size="38">Residential Greenness &amp; Depressive Symptoms in CHARLS</text>
+<text x="70" y="96" class="m" font-size="20">China-wide longitudinal environmental-exposure analysis · NDVI, PM₂.₅ and CESD-10</text>
+
+<!-- A -->
+<rect x="55" y="130" width="590" height="350" rx="22" class="panel"/>
+<rect x="55" y="130" width="590" height="54" rx="22" class="head"/>
+<text x="82" y="165" class="t h" font-size="24">A · Study design &amp; national sampling frame</text>
+<rect x="82" y="210" width="235" height="225" rx="18" class="box"/>
+<text x="105" y="245" class="t h" font-size="20">CHARLS baseline</text>
+<text x="105" y="285" class="t lab">28 provinces</text>
+<text x="105" y="320" class="t lab">150 counties / districts</text>
+<text x="105" y="355" class="t lab">450 villages / communities</text>
+<text x="105" y="390" class="t lab">17,708 individuals</text>
+<text x="105" y="420" class="m sm">Household population age 45+</text>
+<rect x="340" y="210" width="275" height="225" rx="18" class="note"/>
+<text x="365" y="245" class="t h" font-size="20">Analytic geography</text>
+<text x="365" y="282" class="m sm">Exposure assigned at</text>
+<text x="365" y="308" class="t h lab">city × urban/rural level</text>
+<text x="365" y="350" class="m sm">Repeated CHARLS observations</text>
+<text x="365" y="377" class="m sm">linked to remotely sensed</text>
+<text x="365" y="404" class="m sm">greenness and city PM₂.₅</text>
+<text x="82" y="460" class="m sm">Sampling-frame counts describe the national baseline; analytical coverage follows linked study data.</text>
+
+<!-- B -->
+<rect x="670" y="130" width="875" height="350" rx="22" class="panel"/>
+<rect x="670" y="130" width="875" height="54" rx="22" class="head"/>
+<text x="697" y="165" class="t h" font-size="24">B · Exposure engineering &amp; analytical framework</text>
+<rect x="700" y="215" width="235" height="78" rx="15" class="flow"/><text x="718" y="244" class="t h lab">MOD13A3.061 NDVI</text><text x="718" y="271" class="m sm">monthly · 1 km · 2005–2020</text>
+<rect x="970" y="215" width="245" height="78" rx="15" class="flow"/><text x="988" y="244" class="t h lab">Pixel Reliability QA</text><text x="988" y="271" class="m sm">valid pixels + completeness</text>
+<rect x="1250" y="215" width="260" height="78" rx="15" class="flow"/><text x="1268" y="244" class="t h lab">MCD12Q1.061</text><text x="1268" y="271" class="m sm">500 m land-cover context</text>
+<path d="M935 254h35M1215 254h35" stroke="#789087" stroke-width="3"/>
+<rect x="760" y="330" width="300" height="72" rx="15" fill="#dfeee2"/><text x="785" y="359" class="t h lab">City × urban/rural NDVI</text><text x="785" y="385" class="m sm">lagged exposure windows</text>
+<rect x="1135" y="330" width="300" height="72" rx="15" fill="#e3eef6"/><text x="1160" y="359" class="t h lab">Annual city-level PM₂.₅</text><text x="1160" y="385" class="m sm">within-city temporal component</text>
+<path d="M910 402v27h375v-27" fill="none" stroke="#789087" stroke-width="3"/>
+<rect x="915" y="420" width="370" height="42" rx="13" fill="#f6eadc"/><text x="1100" y="447" text-anchor="middle" class="t h sm">CHARLS person-waves → longitudinal CESD-10 model</text>
+
+<!-- C -->
+<rect x="55" y="510" width="760" height="350" rx="22" class="panel"/>
+<rect x="55" y="510" width="760" height="54" rx="22" class="head"/>
+<text x="82" y="545" class="t h" font-size="24">C · Primary association &amp; contextual robustness</text>
+<text x="82" y="592" class="m sm">Effect per +0.1 NDVI · negative coefficients indicate fewer depressive symptoms</text>
+<line x1="555" y1="615" x2="555" y2="790" class="zero"/>
+<line x1="315" y1="805" x2="665" y2="805" class="axis"/>
+<text x="300" y="832" class="m sm">−1.0</text><text x="430" y="832" class="m sm">−0.5</text><text x="548" y="832" class="m sm">0</text>
+<text x="82" y="650" class="t lab">Alternative contextual set A</text><line x1="350" y1="644" x2="520" y2="644" class="ci"/><circle cx="435" cy="644" r="10" class="green"/><text x="585" y="638" class="t num">−0.496</text><text x="585" y="661" class="m sm">95% CI −0.859 to −0.134 · p=.0072</text>
+<text x="82" y="715" class="t lab">Alternative contextual set B</text><line x1="351" y1="709" x2="522" y2="709" class="ci"/><circle cx="437" cy="709" r="10" class="green"/><text x="585" y="703" class="t num">−0.491</text><text x="585" y="726" class="m sm">95% CI −0.854 to −0.129 · p=.0079</text>
+<text x="82" y="780" class="t h lab">Primary contextual set</text><line x1="358" y1="774" x2="524" y2="774" class="ci"/><circle cx="441" cy="774" r="11" class="green"/><text x="585" y="768" class="t num">−0.477</text><text x="585" y="791" class="m sm">95% CI −0.831 to −0.122 · p=.0085</text>
+
+<!-- D -->
+<rect x="840" y="510" width="705" height="350" rx="22" class="panel"/>
+<rect x="840" y="510" width="705" height="54" rx="22" class="head"/>
+<text x="867" y="545" class="t h" font-size="24">D · Sensitivity &amp; exploratory lag analyses</text>
+<text x="870" y="592" class="t h lab">Specification sensitivity</text>
+<text x="870" y="625" class="m sm">City-specific trends</text><text x="1050" y="625" class="t num">−0.630</text><text x="1135" y="625" class="m sm">[−1.073, −0.186] · p=.0054</text>
+<text x="870" y="660" class="m sm">Primary model</text><text x="1050" y="660" class="t num">−0.477</text><text x="1135" y="660" class="m sm">[−0.831, −0.122] · p=.0085</text>
+<text x="870" y="695" class="m sm">+ household consumption</text><text x="1050" y="695" class="t num">−0.231</text><text x="1135" y="695" class="m sm">[−0.648, 0.186] · p=.2768</text>
+<line x1="870" y1="720" x2="1510" y2="720" class="axis"/>
+<text x="870" y="750" class="t h lab">Exploratory lag comparison</text>
+<text x="870" y="780" class="m sm">Lag 1</text><text x="970" y="780" class="t num">−0.144</text><text x="1050" y="780" class="m sm">[−0.501, 0.213]</text>
+<text x="870" y="810" class="m sm">Lag 2</text><text x="970" y="810" class="t h num">−0.521</text><text x="1050" y="810" class="m sm">[−0.864, −0.178] · p=.0029</text>
+<text x="1270" y="780" class="m sm">Lag 3</text><text x="1360" y="780" class="t num">+0.040</text><text x="1270" y="810" class="m sm">[−0.279, 0.359]</text>
+<text x="870" y="842" class="m sm">Earlier spatial + wave-FE comparison; not numerically identical to the final primary model.</text>
+
+<!-- footer -->
+<rect x="55" y="890" width="1490" height="62" rx="18" fill="#eaf3ed"/>
+<text x="85" y="925" class="t h" font-size="22">Primary finding:</text>
+<text x="250" y="925" class="t" font-size="20">+0.1 two-year-lagged NDVI was associated with a 0.477-point lower CESD-10 score</text>
+<text x="250" y="947" class="m sm">95% CI −0.831 to −0.122 · p=.0085 · N=63,004 person-wave observations · observational association</text>
+</svg>
