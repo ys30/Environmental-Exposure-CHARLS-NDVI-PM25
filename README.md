@@ -33,9 +33,9 @@ The current primary spatial-and-wave adjusted specification estimates **−0.477
 
 ## Results figure
 
-![Publication-style summary of current NDVI results](figures/ndvi-results-summary.svg)
+![China-wide CHARLS environmental exposure and results overview](figures/china-charls-environmental-exposure-results.svg)
 
-The figure separates the final fully adjusted primary/contextual results from the earlier exploratory lag comparison so estimates from different model generations are not presented as directly interchangeable. Reproduce the figure with `R/03_plot_results.R`.
+The figure separates the final fully adjusted primary/contextual results from the earlier exploratory lag comparison so estimates from different model generations are not presented as directly interchangeable. Reproduce the portfolio overview with `R/04_plot_portfolio_overview.R`. The earlier coefficient-only figure and its script are retained for manuscript-oriented use.
 
 ## NDVI QA strategy
 
