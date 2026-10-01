@@ -1,0 +1,4 @@
+specification,beta_per_0.1_NDVI,ci_low,ci_high,p_value,interpretation
+Primary spatial+wave adjusted,-0.477,-0.831,-0.122,0.0085,"Inverse association with CESD-10"
+City-trend sensitivity,-0.630,,,0.0054,"Inverse association persists"
+Complete-case+consumption,-0.231,,,0.2768,"Attenuated; not statistically significant"
